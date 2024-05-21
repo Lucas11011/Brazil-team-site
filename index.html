@@ -1,0 +1,112 @@
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Lucas Aurelio, UMass Lowell Computer Science, lucas_aurelio@student.uml.edu
+Copyright (c) 2024 by Lucas. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by LA on May 20, 2024 at 11:30 PM
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Brazil National Team</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="hw1.css">
+</head>
+
+<body>
+    <!-- Header section with the main title of the webpage -->
+    <header>
+        <h1>My First Web Page... About the Brazil National Team!</h1>
+    </header>
+
+    <!-- Section containing introductory information and an image -->
+    <div class="heading">
+        <section class="headingInfo">
+            <h2>About the Team</h2>
+            <p>Welcome to my website for the Brazilian National Soccer team! 
+                The Brazil national soccer team represents Brazil in international men's soccer.
+                It is the most successful national team in the FIFA World Cup, with five championship titles.</p>
+        </section>
+        <!-- image related to the content -->
+        <img src="images/flag.jpg" alt="flag image">
+    </div>
+
+    <!-- Main content area containing various sections for the site -->
+    <main>
+        <!-- Achievements section with a list of major titles won by the team -->
+        <section class="acheivements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>FIFA World Cup Champions: 1958, 1962, 1970, 1994, 2002</li>
+                <li>Copa América Champions: 1919, 1922, 1949, 1989, 1997, 1999, 2004, 2007, 2019</li>
+                <li>FIFA Confederations Cup Champions: 1997, 2005, 2009, 2013</li>
+            </ul>
+        </section>
+        
+        <!-- Section with a table listing famous players from the Brazil national team -->
+        <section>
+            <h2>Famous Players</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Years Active</th>
+                </tr>
+                <tr>
+                    <td>Pelé</td>
+                    <td>Forward</td>
+                    <td>1957-1971</td>
+                </tr>
+                <tr>
+                    <td>Ronaldo</td>
+                    <td>Forward</td>
+                    <td>1994-2011</td>
+                </tr>
+                <tr>
+                    <td>Neymar</td>
+                    <td>Forward</td>
+                    <td>2010-Present</td>
+                </tr>
+            </table>
+        </section>
+        
+        <!-- Gallery section with images of a famous player and the current team -->
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="images/pele.jpg" alt="Pele" class="gallery-img">
+            <img src="images/team.jpg" alt="Current Team" class="gallery-img">
+        </section>
+
+        <!-- Section with a list of informative links related to the Brazil national team -->
+        <section>
+            <h2>Informative links</h2>
+            <nav>
+                <ul>
+                    <li><a href="https://www.cbf.com.br/en" target="_blank">Official CBF Website</a></li>
+                    <li><a href="https://www.fifa.com/worldcup/teams/brazil" target="_blank">FIFA World Cup - Brazil</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Brazil_national_football_team" target="_blank">Wikipedia - Brazil National Team</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+    
+    <!-- Footer section -->
+    <footer>
+        <p>Created by Lucas Aurelio</p>
+    </footer>
+
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" >
+            </a>
+        </p>
+</body>
+</html>

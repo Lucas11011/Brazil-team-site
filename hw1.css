@@ -1,0 +1,118 @@
+/* CSS Variables for colors: using var */
+:root {
+    --bg-color: #fefff4; /* Background color */
+    --second-bg-color: #cfffcd; /* Secondary background color */
+    --text-color: black; /* Text color */
+    --main-color: rgb(62, 96, 248); /* Main color used for headings */
+}
+
+/* Global styles for the body */
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}   
+
+/* Styles for the header */
+header {
+    text-align: center;
+    background-color: var(--second-bg-color);
+    padding: .8rem;
+    border-radius: 1.2rem;
+}
+
+/* Styles for the heading section */
+.heading {
+    display: flex;
+    padding: 20px;
+}
+
+/* Styles for the image in the heading section */
+.heading img {
+    display: block;
+    margin-left: auto;
+    margin-right: 12rem;
+    width: 30%;
+    border-radius: .8rem;
+    padding: .8rem;
+}
+
+/* Styles for the information in the heading section */
+.headingInfo {
+   display: block;
+   margin-left: 12rem;
+   width: 30%;
+}
+
+/* Styles for the main content area */
+main {
+    padding: 2rem;
+}
+
+/* Styles for each section within the main content */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Styles for the achievements section */
+.acheivements {
+    background-color: var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+/* Styles for the gallery section */
+.gallery {
+    background-color: var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+/* Styles for images within the gallery section */
+section .gallery-img {
+    width: 30%;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    border-radius: .5rem;
+}
+
+/* Styles for headings h1, h2 */
+h1, h2 {
+    color: var(--main-color);
+}
+
+/* Styles for tables */
+table {
+    width: 100%;
+}
+
+/* Border styles for table, th, and td */
+table, th, td {
+    border: 1px solid var(--main-color);
+}
+
+/* Padding and text alignment for table cells */
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+/* Styles for navigation lists */
+nav ul {
+    padding: 0;
+    border-radius: 20px;
+}
+
+/* Styles for list items within navigation */
+nav ul li {
+    margin: 1rem;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 1.2rem;
+    width: 100%;
+}
